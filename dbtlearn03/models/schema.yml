@@ -20,7 +20,7 @@ models:
           description: Type of the apartment / room
           tests:
             - accepted_values:
-                values: ['Entire home/apt',
+                values: ['Entire home/apt -break this',
                          'Private room',
                          'Shared room',
                          'Hotel room']
