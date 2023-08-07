@@ -1,5 +1,5 @@
 WITH raw_hosts AS (
-    SELECT * FROM AIRBNB01.RAW.RAW_HOSTS
+    SELECT * FROM {{ source('airbnb01', 'hosts')}}
 )
 SELECT
 id AS host_id,
