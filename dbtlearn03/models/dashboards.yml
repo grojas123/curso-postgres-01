@@ -1,7 +1,7 @@
 version: 2
 
 exposures:
-  - name: Reference
+  - name: Dashboard
     type: dashboard
     maturity: low
     url: https://www.cajadeande.fi.cr/
