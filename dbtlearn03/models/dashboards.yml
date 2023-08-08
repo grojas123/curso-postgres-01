@@ -5,7 +5,7 @@ exposures:
     type: dashboard
     maturity: low
     url: https://www.cajadeande.fi.cr/
-    description: Reference of a external site and models
+    description: Reference of future dashboard
 
 
     depends_on:
