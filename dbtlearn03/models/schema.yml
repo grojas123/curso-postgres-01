@@ -45,6 +45,7 @@ models:
       - name: is_superhost
         description: Defines whether the hosts is a superhost.
         tests:
+          - not_null
           - accepted_values:
               values: ['t', 'f']
      
